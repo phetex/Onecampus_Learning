@@ -1,0 +1,20 @@
+<article>
+  <p>I want to be red and larger than the other text.</p>
+  <p>I want to be normal sized and the default color.</p>
+</article>
+
+
+/* A href that contains "example.com" */
+[href*='example.com'] {
+  color: red;
+}
+
+/* A href that starts with https */
+[href^='https'] {
+  color: green;
+}
+
+/* A href that ends with .com */
+[href$='.com'] {
+  color: blue;
+}
